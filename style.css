@@ -71,7 +71,6 @@ section {
 #works {
   background-image: url("images/latest-work-bg.png");
   background-repeat: no-repeat;
-  border: 1px solid red;
   background-position: right;
   background-size: contain;
   height: 400px;
@@ -95,8 +94,7 @@ section {
 .third-part h1 {
   text-align: center;
   font-size: 40px;
-  font-weight: 500;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .fourth-part {
