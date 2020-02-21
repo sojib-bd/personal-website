@@ -1,0 +1,144 @@
+body {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+section {
+  height: 650px;
+  margin-bottom: 100px;
+}
+
+.left-section {
+  margin-top: 100px;
+}
+
+.left-section h3 {
+  font-size: 30px;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.half-width p {
+  margin: 50px 0px;
+}
+
+.highlight {
+  color: #ec4e88;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: -20px;
+}
+
+.right-section img {
+  width: 100%;
+}
+
+.link-button {
+  text-decoration: none;
+  padding: 10px 40px;
+  color: white;
+  background-color: #ec4e88;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.upper-part {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.middle-left-section img {
+  width: 100%;
+}
+
+.middle-right-section {
+  margin-top: 160px;
+}
+
+.middle-part {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#works {
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  border: 1px solid red;
+  background-position: right;
+  background-size: contain;
+  height: 400px;
+}
+
+.latest-work {
+  width: 1000px;
+  margin-left: 200px;
+}
+
+.latest-work img {
+  width: 25%;
+  float: left;
+  margin-left: 6%;
+}
+
+.third-part {
+  margin-top: 200px;
+}
+
+.third-part h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.fourth-part {
+  text-align: center;
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  /* margin-top: -200px; */
+}
+
+.fourth-part h1 {
+  font-size: 40px;
+}
+
+.info-address {
+  background: #ec4c7a;
+  padding: 20px;
+  width: 700px;
+  margin-left: 250px;
+  color: white;
+  border-radius: 10px;
+}
+
+.client-intro {
+  margin: 70px 0;
+}
+
+.client-intro p {
+  color: #cacaca;
+}
+
+.client-review {
+  margin: 50px 0;
+}
+
+.client-review p {
+  color: grey;
+}
+
+footer {
+  text-align: center;
+  color: dimgrey;
+  font-size: 14px;
+}
