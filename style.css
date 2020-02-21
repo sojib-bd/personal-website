@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans";
+  font-family: "Asap";
   margin: 0;
 }
 
@@ -78,13 +78,20 @@ section {
 
 .latest-work {
   width: 1000px;
-  margin-left: 200px;
+  margin-left: 180px;
 }
 
 .latest-work img {
   width: 25%;
   float: left;
   margin-left: 6%;
+}
+
+.latest-work img:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
 }
 
 .third-part {
