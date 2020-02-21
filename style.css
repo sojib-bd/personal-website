@@ -47,6 +47,13 @@ section {
   border-radius: 5px;
 }
 
+.link-button:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: 1s;
+}
+
 .upper-part {
   background-image: url("images/header-bg.png");
   background-repeat: no-repeat;
@@ -131,7 +138,7 @@ section {
 }
 
 .client-intro p {
-  color: #cacaca;
+  color: #5a5555;
 }
 
 .client-review {
@@ -139,7 +146,7 @@ section {
 }
 
 .client-review p {
-  color: grey;
+  color: rgb(71, 65, 65);
 }
 
 footer {
